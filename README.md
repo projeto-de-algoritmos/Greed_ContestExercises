@@ -46,10 +46,10 @@ Confira o enunciado do exercício [aqui](https://codeforces.com/problemset/probl
 ## Screenshots
 
 ### Beautiful Paintings
-![](Assets/ForeignFriends.png)
+![](Assets/BeautifulPaintings.png)
 
 ### Impartial Gift
-![](Assets/HelpTheKing.png)
+![](Assets/ImpartialGift.png)
 
 ### Smilo and Monsters
 ![](Assets/SmiloAndMonsters.png)
