@@ -11,37 +11,37 @@
 ## Sobre 
 Este projeto contém as resoluções de exercícios de Juiz Online que envolvem algorítimos ambiciosos. 
 
-### Exercício 1:  [Foreign Friends](https://atcoder.jp/contests/abc245/tasks/abc245_g)
+### Exercício 1:  [Beautiful Paintings](https://codeforces.com/contest/651/problem/B)
 
-Neste algoritmo, há N pessoas pertencentes a K nações, sendo algumas delas populares. Inicialmente, ninguém é amigo de ninguém. Mediante o pagamento de um custo, Takahashi pode tornar amigos dois indivíduos. O desafio é determinar se cada pessoa pode se tornar amigo de um popular de uma nação diferente e, caso possível, encontrar o custo mínimo necessário para fazê-lo. O algoritmo utiliza uma abordagem baseada em Dijkstra e operações de fila de prioridade para calcular os custos mínimos de amizade, considerando nacionalidades e amizades já existentes. Ao final, ele fornece o custo mínimo para tornar cada pessoa uma amiga indireta de um popular de uma nação diferente, e os resultados são impressos.
+Esse exercício tem como contexto existe uma nova exposição a ser montada e existem diversas pinturas bonitas a serem exibidas, queremos que os visitantes fiquem cada vez mais felizes ao olhar de uma pintura a outra. Para isso precisamos de reordenar varios quadros pelo "valor" de sua beleza, de forma que eu consiga formar a maior quantidade de duplas aonde o quadro i seja menos belo que seu sucessor i+1, apartir dessa logica, vou retornar o número máximo possível de vezes que o visitante pode ficar feliz ao passar todas as fotos.
 
-Confira o enunciado do exercício [aqui](https://atcoder.jp/contests/abc245/tasks/abc245_g)
+Confira o enunciado do exercício [aqui](https://codeforces.com/contest/651/problem/B)
 
-- [Ir para solução](Soluções/ForeignFriends.cpp)
+- [Ir para solução](Soluções/BeautifulPaintings.cpp)
 
-### Exercício 2: [Help the king](https://www.spoj.com/problems/IITKWPCG/)
+### Exercício 2: [Impartial Gift](https://atcoder.jp/contests/abc302/tasks/abc302_d)
 
-Neste conto, um rei busca reconstruir as estradas de seu país após um ataque inimigo. O desafio reside no fato de que o custo de reparo é baseado em multiplicação e deve ser expresso em potências de dois, de acordo com regras contratuais. Para minimizar os gastos, ele utiliza o algoritmo de Prim para encontrar uma árvore geradora mínima do grafo das cidades. Após calcular o custo total de reparo e convertê-lo em sua forma em potência de dois, o rei procura determinar quantos divisores esse valor possui, representando as diferentes maneiras de expressar o custo. Essa abordagem é aplicada a vários casos de teste com diferentes configurações de cidades e estradas danificadas.
+O exercício tem como objetivo encontrar a maior soma de valor entre 2 "presentes" para os dois amigos do Takahashi, em que a diferença dos dois valores não pode ser maior que um valor de entrada "D". Para essa solução usei uma visão gulosa com dois ponteiros para se escolher os maiores valores de cada opção de presente dentre as entradas.
 
-Confira o enunciado do exercício [aqui](https://www.spoj.com/problems/IITKWPCG/)
+Confira o enunciado do exercício [aqui](https://atcoder.jp/contests/abc302/tasks/abc302_d)
 
-- [Ir para solução](Soluções/HelpTheKing.cpp)
+- [Ir para solução](Soluções/ImpartialGift.cpp)
 
-### Exercício 3:  [Jzzhu and Cities](https://codeforces.com/problemset/problem/449/B)
+### Exercício 3:  [Increase And Decrease](www)
 
-Neste exercício, o desafio é determinar o número máximo de rotas de trem que podem ser desativadas no país A, mantendo inalterado o comprimento dos caminhos mais curtos de todas as cidades para a capital, dadas as conexões entre cidades por estradas e rotas de trem, bem como seus comprimentos associados. O objetivo é otimizar a economia de recursos, garantindo que a acessibilidade entre as cidades e a capital permaneça a mesma, com base na topologia do grafo.
+Neste exercício, 
 
-Confira o enunciado do exercício [aqui](https://codeforces.com/problemset/problem/449/B)
+Confira o enunciado do exercício [aqui](www)
 
-- [Ir para solução](Soluções/JzzhuAndCities.cpp)
+- [Ir para solução](Soluções/IncreaseAndDecrease.cpp)
 
-### Exercício 4:  [Travel by Car](https://atcoder.jp/contests/abc143/tasks/abc143_e)
+### Exercício 4:  [Smilo And Monsters](www)
 
-Neste cenário, Takahashi precisa navegar entre N cidades por meio de M estradas em seu carro, que tem um tanque de combustível com capacidade máxima de L litros, consumindo um litro por unidade de distância percorrida. Ao visitar cidades, ele pode reabastecer o tanque, mas não pode ficar sem combustível no meio da estrada. O desafio é processar Q consultas, cada uma com cidades de partida e destino, determinando o número mínimo de recargas de combustível necessárias para viajar de s para t. Se a cidade de destino for inalcançável a partir da cidade de partida, a resposta é -1. O algoritmo usa Dijkstra para calcular os caminhos mais curtos considerando as restrições de combustível e recargas do tanque, fornecendo a solução para cada consulta com base nos caminhos previamente calculados.
+Neste exercício, 
 
-Confira o enunciado do exercício [aqui](https://atcoder.jp/contests/abc143/tasks/abc143_e)
+Confira o enunciado do exercício [aqui](www)
 
-- [Ir para solução](Soluções/TravelByCar.cpp)
+- [Ir para solução](Soluções/SmiloAndMonsters.cpp)
 
 ## Screenshots
 
